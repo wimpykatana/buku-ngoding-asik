@@ -1,0 +1,27 @@
+.kotaHolder {
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.kotaHolder.day {
+  background-image: url('https://raw.githubusercontent.com/wimpykatana/100DaysOfCode/refs/heads/main/weather-app/src/asset/siang.png');
+}
+
+.kotaHolder.night {
+  background-image: url('https://raw.githubusercontent.com/wimpykatana/100DaysOfCode/refs/heads/main/weather-app/src/asset/malam.png');
+}
+
+.textHolder {
+  display: flex;
+  align-items: end;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.textHolder > div {
+  padding-right: 1rem;
+}

@@ -1,0 +1,17 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  Height: 100vh;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+ }
+ 
+ .wrapper h1 {
+  text-align: center;
+  width: 100%;
+ }

@@ -1,0 +1,20 @@
+.kartu-wrapper {
+    border: solid white 1px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.kartu-wrapper button {
+    font-size: 1em;
+    border: solid white 1px;
+    padding: 10px;
+    background: none;
+    cursor: pointer;
+    margin: 10px 0;
+    align-self: center;
+    margin-top: auto;
+}

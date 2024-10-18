@@ -1,0 +1,24 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.listKota {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 0 0 1rem;
+}
+
+.outlet {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
